@@ -7,6 +7,6 @@
     <title>Posts</title>
 </head>
 <body>
-    <h1>{{$post->body }}</h1>
+    <h1>{{$post->body . " " . $post->title}}</h1>
 </body>
 </html>
